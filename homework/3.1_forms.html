@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms & input</title>
+</head>
+<body>
+    <h1>Creat an Acount</h1>
+    <form action="process.php">
+        <div>
+            <label for="Email">Email:</label><br>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="Password">Password:</label><br>
+            <input type="password" name="password" id="password">
+        </div>
+        <div>
+            <label for="Age">Age:</label><br>
+            <input type="number" name="Age" id="Age" placeholder="select age">
+        </div>
+        <div>
+            <label for="Message">Tell us little about yourself</label><br>
+            <textarea name="Message" id="Message" rows="5"></textarea>
+        </div>
+        <div>
+            <label for="membership"></label>
+            <input type="checkbox" name="likes" value="iagree to the term of service">iagree to the <u style="color:blue">term of service</u>
+        </div>
+
+
+
+
+        <input type="submit" value="sign up">
+
+    </form>
+</body>
+</html>
